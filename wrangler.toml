@@ -1,4 +1,0 @@
-# Cloudflare Pages — static Next.js export (see next.config.ts output: "export")
-name = "sarmad-dev"
-compatibility_date = "2024-09-23"
-pages_build_output_dir = "out"
