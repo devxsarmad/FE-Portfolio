@@ -3,14 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "opennextjs-cloudflare build",
     "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+    "lint": "eslint"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -27,9 +23,7 @@
     "react-hook-form": "^7.68.0",
     "tailwind-merge": "^3.4.0",
     "three": "^0.181.2",
-    "zod": "^4.1.13",
-    "@opennextjs/cloudflare": "^1.19.11",
-    "wrangler": "^4.97.0"
+    "zod": "^4.1.13"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
